@@ -24,7 +24,7 @@ def PASS():
 		pass
 	else :
 		st.stop()
-#PASS()
+PASS()
 
 uploaded_file = st.file_uploader("browse your plant image:")
 if uploaded_file is not None:
