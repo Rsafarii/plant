@@ -24,8 +24,9 @@ f'''
 <style>
 h1 {{
 text-align: center;
-color:green;
+color:orange;
 font-family:TimesNewRoman, Times, serif;
+font-size:20px;
 
 }}
 #v1 {{
@@ -86,7 +87,7 @@ if uploaded_file is not None:
         
         	wikipedia.set_lang("en")
         	W=wikipedia.summary(Type)
-        	st.write(f"<p style='text-align: justify; color: black; border: 1px solid black;margin:10px; padding: 15px;' lang='en' dir='ltr'> {W} </p>", unsafe_allow_html=True)
+        	st.write(f"<p style='text-align: center; color: black; border: 1px solid black;margin:10px; padding: 15px;' lang='en' dir='ltr'> {W} </p>", unsafe_allow_html=True)
         except:
         	pass
         try:
@@ -94,7 +95,7 @@ if uploaded_file is not None:
         	W_p=wikipedia.summary(Type)
         	#with open('font.css') as f:
         		#st.write(f"<style>{f.read()}</style> <article id='mp' lang='fa' dir='rtl'> {W_p} </article>", unsafe_allow_html=True)
-        	st.write(f"<p style='text-align: justify; color: blue;border: 1px solid blue;margin:10px; padding: 15px;' lang='fa' dir='rtl'> {W_p} </p>", unsafe_allow_html=True)
+        	st.write(f"<p style='text-align: center; color: blue;border: 1px solid blue;margin:10px; padding: 15px;' lang='fa' dir='rtl'> {W_p} </p>", unsafe_allow_html=True)
         except:
         	pass
     except:
