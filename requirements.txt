@@ -4,5 +4,5 @@ numpy==1.18.5
 wikipedia
 googletrans
 requests
-BeautifulSoup
+beautifulsoup4
 googlesearch
