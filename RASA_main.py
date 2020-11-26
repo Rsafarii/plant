@@ -450,7 +450,7 @@ body {
                
                
                 <tr>
-                <td colspan="2" align="right" valign="middle"><table height="80" width="100%" border="0" cellpadding="0" cellspacing="1" bordercolor="#009900">
+                <td colspan="2" align="right" valign="middle"><table height="20%" width="100%" border="0" cellpadding="0" cellspacing="1" bordercolor="#009900">
                 <tbody><tr>
                 <td width="25%" align="center" valign="middle" bgcolor="#ccfff5">
             <span  style=" font-weight: 700; font-size: 9pt">خاک و تغذیه</span>
@@ -521,7 +521,7 @@ body {
                 </table>
                 
                 
-                ''',height=300,)
+                ''',height=600,)
                 
             
         except:
