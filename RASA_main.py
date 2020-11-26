@@ -569,7 +569,7 @@ body {
                 </div>
                 </div>
                 """,
-                height=600,
+                height=1200,
                 )
         except:
                 pass
