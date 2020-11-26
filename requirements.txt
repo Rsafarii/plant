@@ -5,4 +5,4 @@ wikipedia
 googletrans
 requests
 beautifulsoup4
-googlesearch-python
+google
