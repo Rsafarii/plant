@@ -479,7 +479,7 @@ body {
             </tbody></table>
             </td>
             <td width="25%" align="center" valign="middle" bgcolor="#DBF7E3">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ccffe6">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" >
                 <tbody><tr>
                     <td align="right" valign="middle" dir="rtl">
                         <span  style=" font-size: 9pt">{ID_find2[2]}</span>
@@ -492,7 +492,7 @@ body {
             </tbody></table>
             </td>
             <td width="25%" align="center" valign="middle" bgcolor="#DBF7E3">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ccffe6">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" >
                 <tbody><tr>
                     <td align="right" valign="middle">
                         <span  style=" font-size: 9pt">{ID_find2[1]}</span>
@@ -504,7 +504,7 @@ body {
             </tbody></table>
             </td>
             <td width="25%" align="center" valign="middle" bgcolor="#DBF7E3">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ccffe6">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" >
                 <tbody><tr>
                     <td align="right" valign="middle">
                         <span  style=" font-size: 9pt">{ID_find2[0]} </span>
@@ -521,7 +521,7 @@ body {
                 </table>
                 
                 
-                ''',height=600,)
+                ''',height=450,)
                 
             
         except:
